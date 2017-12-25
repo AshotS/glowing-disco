@@ -231,7 +231,6 @@ if __name__ == '__main__':
     tree.setAcceptDrops(True)
     tree.setDropIndicatorShown(True)
     tree.setDragDropMode(QtWidgets.QAbstractItemView.InternalMove)
-    tree.clicked.connect(test)
     tree.show()
     itemI = Item('ItemI', 'Description I', parent=itemC)
     tree.expandAll()
